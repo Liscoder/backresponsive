@@ -1,0 +1,126 @@
+/* Tu CSS va aqui */
+*{
+	font-family: Open Sans;
+}
+.mg{
+	margin:auto;
+}
+header{
+	height: 12vh;
+	padding-top: 2%;
+}
+header img{
+	height:30px;
+}
+section{
+	background-color:#808080;
+	height: 45vh;
+	padding-top: 3%;
+	color:white;
+}
+section p{
+	padding-top: 6%;
+	font-size:12px;
+}
+span{
+	color:blue;
+}
+nav ul a{
+	text-decoration: none;
+}
+nav ul li{
+	list-style: none;
+	display:inline-block;
+}
+.info{
+	color:#808080;
+	margin-left:5px;
+}
+section h1{
+	font-size: 42px;
+	line-height: 44px;
+}
+footer{
+	height:5vh;
+}
+.block{
+	display:block;
+	background-color: #3eb0f7;
+	padding:2%;
+	width:80%;
+	border:none;
+}
+input{
+	padding:2%;
+	margin:1%;
+}
+button{
+	padding-bottom: 10%;
+	color:white;
+}
+.mg{
+	margin:auto;
+}
+.cont{
+	padding: 4%;
+	background-color: #9a9a9a;
+	border-radius:14px;
+	margin:auto;
+	text-align: center;
+}
+.mr{
+	margin-left:2%;
+}
+footer p{
+	padding-top:3%;
+	color:#808080;
+}
+
+@media screen and (min-width:376px) and (max-width: 667px){
+	section{
+ 		height: 110vh;
+ 	}
+ 	input{
+ 		width:100%;
+ 	}
+ 	button{
+ 		padding:15%;
+ 	}
+	.cont{
+ 		width:100%;
+ 		margin:6% 0;
+
+ 	}
+ 	.mr h1{
+ 		width:100%;
+ 	}
+ 	section p{
+ 		width:210%;
+ 	}
+ 	header nav{
+ 		width:100%;
+ 	}
+
+}
+@media screen and (min-width:320px) and (max-width: 375px){
+ 	header nav{
+ 		width:50%;
+ 		font-size:12px;
+
+ 	}
+ 	.seg{
+		width:135%;
+		margin-left:120px;
+ 	}
+ 	section{
+ 		height: 110vh;
+ 	}
+ 	section p{
+ 		width:250%;
+ 	}
+ 	.cont{
+ 		width:100%;
+ 		margin:6% 0;
+
+ 	}
+}
